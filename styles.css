@@ -31,8 +31,9 @@ h1{
     color: var(--accent);
 }
 
-h1:hover{
+h1:hover, h1:active{
     transform: rotate(360deg);
+    scale: .7;
     transition: transform  .3s ease-in;
     
     
